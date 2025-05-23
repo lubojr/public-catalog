@@ -3,7 +3,7 @@
   "Title": "Nitrogen Dioxide (Monthly)",
   "EodashIdentifier": "N1_NO2_monthly",
   "Subtitle": "Mean NO2 column density based on OMI data [10^15 mol/cm\u00b2]",
-  "Description": "N1_NO2_trilateral/N1_NO2_monthly.md",
+  "Description": "N1_NO2_monthly/N1_NO2_monthly.md",
   "Themes": [
     "atmosphere"
   ],
@@ -26,8 +26,8 @@
   "Agency": [
     "NASA"
   ],
-  "Image": "N1_NO2_monthly/N1_NO2_monthly.png",
-  "Legend": "N1_NO2_monthly/N1_NO2_monthly_legend.png",
+  "Image": "N1_NO2_monthly/thumbnail.png",
+  "Legend": "N1_NO2_monthly/cm_legend.png",
   "References": [
     {
       "Name": "Aura satellite",
