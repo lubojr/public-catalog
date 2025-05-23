@@ -1,0 +1,174 @@
+{
+  "type": "Collection",
+  "id": "IDEAS2_wildlife",
+  "stac_version": "1.1.0",
+  "description": "Identify areas of high biodiversity",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EOxHub test1 workspace Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS2_wildlife/collection.json",
+      "type": "application/json",
+      "title": "Wildlife Biodiversity Indicator",
+      "endpointtype": "COG source",
+      "subtitle": "Identify areas of high biodiversity",
+      "code": "IND2_1",
+      "id": "IDEAS2_wildlife",
+      "themes": [
+        "agriculture"
+      ],
+      "tags": [
+        "GBIF",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "IND2_1",
+      "satellite": [
+        "MODIS",
+        "Sentinel-3"
+      ],
+      "insituSources": [
+        "GBIF"
+      ],
+      "otherSources": [
+        "Open Data Soft"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EOxHub test1 workspace Catalog"
+    }
+  ],
+  "subtitle": "Identify areas of high biodiversity",
+  "thumbnail": "https://raw.githubusercontent.com/organization/assets-repo/main//IDEAS2_wildlife/IDEAS2_wildlife.png",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "GBIF",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "IND2_1",
+  "satellite": [
+    "MODIS",
+    "Sentinel-3"
+  ],
+  "insituSources": [
+    "GBIF"
+  ],
+  "otherSources": [
+    "Open Data Soft"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "range": [
+      "#fde725",
+      "#2f918c",
+      "#440154"
+    ],
+    "scaleType": "categorical",
+    "title": "[index]"
+  },
+  "title": "Wildlife Biodiversity Indicator",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -24,
+          33,
+          42,
+          71
+        ],
+        [
+          -24,
+          33,
+          42,
+          71
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Murmuration",
+      "url": "https://murmuration-sas.com/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "IND2_1"
+    ],
+    "themes": [
+      "agriculture"
+    ],
+    "satellite": [
+      "Sentinel-3",
+      "MODIS"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/organization/assets-repo/main//IDEAS2_wildlife/IDEAS2_wildlife.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/organization/assets-repo/main//IDEAS2_wildlife/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/organization/assets-repo/main//IDEAS2_wildlife/IDEAS2_wildlife.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

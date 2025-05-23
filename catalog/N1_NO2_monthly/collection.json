@@ -1,0 +1,200 @@
+{
+  "type": "Collection",
+  "id": "N1_NO2_monthly",
+  "stac_version": "1.1.0",
+  "description": "Mean NO2 column density based on OMI data [10^15 mol/cm²]",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EOxHub test1 workspace Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./N1_NO2_monthly/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (Monthly)",
+      "endpointtype": "VEDA_cog",
+      "subtitle": "Mean NO2 column density based on OMI data [10^15 mol/cm²]",
+      "code": "N1_NO2_monthly",
+      "id": "N1_NO2_monthly",
+      "themes": [
+        "atmosphere"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "OMI"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "N1_NO2_monthly",
+      "sensor": [
+        "OMI"
+      ],
+      "satellite": [
+        "Aura"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EOxHub test1 workspace Catalog"
+    }
+  ],
+  "subtitle": "Mean NO2 column density based on OMI data [10^15 mol/cm²]",
+  "thumbnail": "https://raw.githubusercontent.com/organization/assets-repo/main//N1_NO2_monthly/N1_NO2_monthly.png",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Air quality",
+    "NO2",
+    "Open data",
+    "OMI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N1_NO2_monthly",
+  "sensor": [
+    "OMI"
+  ],
+  "satellite": [
+    "Aura"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      108
+    ],
+    "range": [
+      "#fff5f0",
+      "#fee8de",
+      "#fed7c7",
+      "#fcc1a9",
+      "#fca88b",
+      "#fc8f6f",
+      "#fb7656",
+      "#f75c41",
+      "#f03f2e",
+      "#dc2824",
+      "#c5171c",
+      "#ae1117",
+      "#8d0912",
+      "#67000d"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "NO2 [µmol/m²]"
+  },
+  "title": "Nitrogen Dioxide (Monthly)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2023-09-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "NASA",
+      "roles": "licensor, producer, processor",
+      "url": "https://www.earthdata.nasa.gov/learn/articles/find-no2-data"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N1_NO2_monthly"
+    ],
+    "themes": [
+      "atmosphere"
+    ],
+    "satellite": [
+      "Aura"
+    ],
+    "sensor": [
+      "OMI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/organization/assets-repo/main//N1_NO2_monthly/N1_NO2_monthly.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/organization/assets-repo/main//N1_NO2_monthly/N1_NO2_monthly_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/organization/assets-repo/main//N1_NO2_monthly/N1_NO2_monthly.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://aura.gsfc.nasa.gov/index.html",
+      "type": "text/html",
+      "title": "Aura satellite",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://earthobservatory.nasa.gov/images/146741/nitrogen-dioxide-levels-rebound-in-china",
+      "type": "text/html",
+      "title": "Nitrogen Dioxide Levels Rebound in China",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

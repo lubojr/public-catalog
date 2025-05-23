@@ -1,0 +1,114 @@
+{
+  "type": "Catalog",
+  "id": "catalog",
+  "stac_version": "1.1.0",
+  "description": "Testing catalog for test1 workspace",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "EOxHub test1 workspace Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./ESDL_Hydrology_SM/collection.json",
+      "type": "application/json",
+      "title": "Surface Soil Moisture",
+      "code": "ESDL_Hydrology_SM",
+      "id": "ESDL_Hydrology_SM",
+      "themes": [
+        "agriculture",
+        "water"
+      ],
+      "subcode": "ESDL_Hydrology_SM",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/organization/assets-repo/main//ESDL_Hydrology_SM/image.png"
+      ],
+      "tags": [
+        "Open data",
+        "surface soil moisture",
+        "radiative transfer"
+      ],
+      "agency": [
+        "EURAC"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N1_NO2_monthly/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (Monthly)",
+      "subtitle": "Mean NO2 column density based on OMI data [10^15 mol/cm²]",
+      "code": "N1_NO2_monthly",
+      "id": "N1_NO2_monthly",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N1_NO2_monthly",
+      "satellite": [
+        "Aura"
+      ],
+      "sensor": [
+        "OMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/organization/assets-repo/main//N1_NO2_monthly/N1_NO2_monthly.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "OMI"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS2_wildlife/collection.json",
+      "type": "application/json",
+      "title": "Wildlife Biodiversity Indicator",
+      "subtitle": "Identify areas of high biodiversity",
+      "code": "IND2_1",
+      "id": "IDEAS2_wildlife",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "IND2_1",
+      "satellite": [
+        "MODIS",
+        "Sentinel-3"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/organization/assets-repo/main//IDEAS2_wildlife/IDEAS2_wildlife.png"
+      ],
+      "tags": [
+        "GBIF",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "GBIF"
+      ],
+      "otherSources": [
+        "Open Data Soft"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://organization.github.io/repository/repository/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "EOxHub test1 workspace Catalog"
+}
