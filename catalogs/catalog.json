@@ -5,7 +5,7 @@
   "endpoint": "https://organization.github.io/repository/repository/",
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
-  "assets_endpoint": "https://raw.githubusercontent.com/eoxhub-workspaces/public-catalog/refs/heads/main/",
+  "assets_endpoint": "https://raw.githubusercontent.com/eoxhub-workspaces/public-catalog/refs/heads/main/assets/",
   "collections": [
     "ESDL_Hydrology_SM",
     "N1_NO2_monthly",
