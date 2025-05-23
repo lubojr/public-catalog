@@ -1,12 +1,15 @@
 {
-  "id": "template_catalog",
-  "title": "Template Catalog",
-  "description": "This catalog definition is part of the eodash catalog template, please update to fit your needs",
+  "id": "catalog",
+  "title": "EOxHub test1 workspace Catalog",
+  "description": "Testing catalog for test1 workspace",
   "endpoint": "https://organization.github.io/repository/repository/",
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
   "assets_endpoint": "https://raw.githubusercontent.com/organization/assets-repo/main/",
   "collections": [
-    "example_collection"
+    "ESDL_Hydrology_SM",
+    "sample_custom_processor",
+    "N1_NO2_monthly",
+    "IDEAS2_wildlife"
   ]
 }
