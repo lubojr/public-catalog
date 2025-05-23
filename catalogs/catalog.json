@@ -8,7 +8,6 @@
   "assets_endpoint": "https://raw.githubusercontent.com/organization/assets-repo/main/",
   "collections": [
     "ESDL_Hydrology_SM",
-    "sample_custom_processor",
     "N1_NO2_monthly",
     "IDEAS2_wildlife"
   ]
