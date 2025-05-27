@@ -15,5 +15,32 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS2_wildlife/flatstyle.json",
+      "Bbox": [
+        -10.717557251908374,
+        23.968511450381676,
+        24.458015267175597,
+        61.89217557251908
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "Wildlife Biodiversity indicator",
+              "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator2/AR3_wildlife.tif"
+            }
+          ]
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
 }
