@@ -43,5 +43,13 @@
       "LayerId": ""
     }
   ],
-  "Colorlegend": {}
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaleType": "continuous",
+    "markType": "rect"
+  }
 }
