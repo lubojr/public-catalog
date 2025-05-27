@@ -1,3 +1,19 @@
 {
-  "Name": "new_dataset_1"
+  "Name": "new_dataset_1",
+  "Title": "test_1",
+  "EodashIdentifier": "test_1",
+  "Description": "test2",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
