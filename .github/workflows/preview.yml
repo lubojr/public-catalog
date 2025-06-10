@@ -29,6 +29,22 @@ jobs:
           submodules: 'true'
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+      - name: Get commit message from PR head branch
+        id: get_pr_commit_message
+        run: |
+          PR_COMMIT_SHA=${{ github.event.pull_request.head.sha }}
+          PR_REPO_OWNER=${{ github.event.pull_request.head.repo.owner.login }}
+          PR_REPO_NAME=${{ github.event.pull_request.head.repo.name }}
+          # Fetch the commit message from the PR's head branch
+          COMMIT_MESSAGE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${PR_REPO_OWNER}/${PR_REPO_NAME}/commits/${PR_COMMIT_SHA}" \
+            | jq -r .commit.message)
+          # Setting skip flag.
+           if [[ "$COMMIT_MESSAGE" == *"create session using empty commit"* ]]; then
+            echo "should_skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_skip=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: changed-files
         id: changed-files
         uses: tj-actions/changed-files@v45
@@ -39,7 +55,8 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: python .github/update_catalog.py
-      - name: Build
+      - if: steps.get_pr_commit_message.outputs.should_skip != 'true'
+        name: Build
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
@@ -47,7 +64,9 @@ jobs:
         run: |
           docker pull ghcr.io/eodash/eodash_catalog:latest
           docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:latest eodash_catalog
-      - name: Deploy preview
+      - 
+        if: steps.get_pr_commit_message.outputs.should_skip != 'true'
+        name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./build
