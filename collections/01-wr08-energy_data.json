@@ -67,5 +67,6 @@
     "Name": "01-wr08-production_comparison",
     "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-wr08-vega_chart.json"
   },
-  "CollectionGroup": "Energy Dashboard"
+  "CollectionGroup": "Energy Dashboard",
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-austrian_renewable_energy.png"
 }
