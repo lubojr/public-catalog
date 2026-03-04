@@ -42,5 +42,17 @@
     }
   ],
   "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-austrian_renewable_energy.png",
-  "CollectionGroup": "Energy Dashboard"
+  "CollectionGroup": "Energy Dashboard",
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "02-wr08-energy_capacity_statistics",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "02-wr08-capacity_comparison",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-wr08-vega_chart.json"
+  }
 }
