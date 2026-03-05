@@ -1,1 +1,6 @@
-{}
+{
+  "Name": "04-wr08-energy_data",
+  "Title": "Photovoltaic Capacity per Federal State",
+  "Description": "Photovoltaic capacity installed varies between Federal States in Austria. The differences between the states come down to their specific legal requirements. For example, Styria requires solar panels on all new buildings and has clear zoning laws for solar farms. Vienna is now trying to catch up by making PV mandatory for both new builds and major renovations.\nThis information has been published initially on https://www.energie.gv.at",
+  "Resources": []
+}
