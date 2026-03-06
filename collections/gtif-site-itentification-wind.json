@@ -75,12 +75,12 @@
     }
   ],
   "Process": {
-    "Name": "git-windatlas-process",
+    "Name": "git-git-windatlas-process-3-0",
     "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_form.json",
     "EndPoints": [
       {
-        "Identifier": "git-windatlas-process",
-        "Url": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-windatlas-process/execution",
+        "Identifier": "git-git-windatlas-process-3-0",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-git-windatlas-process-3-0/execution",
         "Method": "POST",
         "EndPoint": "eoxhub_workspaces",
         "Body": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_body.json",
