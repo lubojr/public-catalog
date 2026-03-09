@@ -1,1 +1,30 @@
-{}
+{
+  "Name": "05-wr08-energy_data",
+  "Title": "Yearly Wind Energy Production per Federal State",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/09/09-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "WindProduction2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/09/09-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.35604909065767,
+        46.269450097034124,
+        17.380645554915933,
+        49.380049175375134
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/09/09-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard"
+}
