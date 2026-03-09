@@ -4,14 +4,14 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-wr08-energy_data_styles.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-wr08-energy_data_styles.json",
       "TimeEntries": [
         {
           "Time": "2020",
           "Assets": [
             {
-              "Identifier": "PhotovoltaicProductionConsumpion2020",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2020.geojson"
+              "Identifier": "PhotovoltaicProductionConsumption2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2020.geojson"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "Time": "2021",
           "Assets": [
             {
-              "Identifier": "PhotovoltaicProductionConsumpion2021",
+              "Identifier": "PhotovoltaicProductionConsumption2021",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2021.geojson"
             }
           ]
@@ -28,7 +28,7 @@
           "Time": "2022",
           "Assets": [
             {
-              "Identifier": "PhotovoltaicProductionConsumpion2022",
+              "Identifier": "PhotovoltaicProductionConsumption2022",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2022.geojson"
             }
           ]
@@ -37,7 +37,7 @@
           "Time": "2023",
           "Assets": [
             {
-              "Identifier": "PhotovoltaicProductionConsumpion2023",
+              "Identifier": "PhotovoltaicProductionConsumption2023",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2023.geojson"
             }
           ]
@@ -46,7 +46,7 @@
           "Time": "2024",
           "Assets": [
             {
-              "Identifier": "PhotovoltaicProductionConsumpion2024",
+              "Identifier": "PhotovoltaicProductionConsumption2024",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2024.geojson"
             }
           ]
