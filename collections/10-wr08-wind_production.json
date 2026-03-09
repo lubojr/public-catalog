@@ -1,1 +1,66 @@
-{}
+{
+  "Name": "06-wr08-wind_production",
+  "Title": "Wind Energy Production vs. Consumption",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-renewable_Austria_states_2020.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2021",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2022",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2022.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.561311497636542,
+        46.309689940845686,
+        17.188098254092136,
+        49.16426472440946
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard"
+}
