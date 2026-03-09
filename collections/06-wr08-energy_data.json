@@ -7,7 +7,7 @@
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-wr08-energy_data_styles.json",
       "TimeEntries": [
         {
-          "Time": "20200101",
+          "Time": "2020",
           "Assets": [
             {
               "Identifier": "PhotovoltaicProductionConsumpion2020",
@@ -16,7 +16,7 @@
           ]
         },
         {
-          "Time": "20210101",
+          "Time": "2021",
           "Assets": [
             {
               "Identifier": "PhotovoltaicProductionConsumpion2021",
@@ -25,7 +25,7 @@
           ]
         },
         {
-          "Time": "20220101",
+          "Time": "2022",
           "Assets": [
             {
               "Identifier": "PhotovoltaicProductionConsumpion2022",
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "Time": "20230101",
+          "Time": "2023",
           "Assets": [
             {
               "Identifier": "PhotovoltaicProductionConsumpion2023",
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "Time": "20240101",
+          "Time": "2024",
           "Assets": [
             {
               "Identifier": "PhotovoltaicProductionConsumpion2024",
