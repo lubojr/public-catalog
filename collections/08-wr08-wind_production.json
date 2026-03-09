@@ -1,1 +1,64 @@
-{}
+{
+  "Name": "08-wr08-energy_data",
+  "Title": "Wind Capacity per Federal State",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "WindCapacity2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-renewable_Austria_states_2020.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2021",
+          "Assets": [
+            {
+              "Identifier": "WindCapacity2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2022",
+          "Assets": [
+            {
+              "Identifier": "WindCapacity2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-renewable_Austria_states_2022.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "WindCapacity2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "WindCapacity2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.618482776833396,
+        46.2032700643327,
+        17.35157786080348,
+        49.301598189967514
+      ]
+    }
+  ]
+}
