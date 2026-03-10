@@ -17,7 +17,7 @@
     "EndPoints": [
       {
         "Identifier": "geothermal_stats",
-        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/csv/{{feature.values_.year}}/{{feature.values_.BDLNAME}}.csv",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/csv/{{year}}/{{feature.values_.BDLNAME}}.csv",
         "Type": "text/csv"
       }
     ]
