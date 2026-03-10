@@ -24,10 +24,11 @@
           "Assets": [
             {
               "Identifier": "conductivity",
+              "Title": "Geothermal Energy Potential 2024",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/best_cond_stu_gee_50_n2k_3857_1km_COG_matched.tif"
             },
             {
-              "Identifier": "Natura2000",
+              "Identifier": "natura2000",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/NK2_3035_1km_24_3035_COG_1_matched.tif"
             }
           ]
@@ -37,10 +38,11 @@
           "Assets": [
             {
               "Identifier": "conductivity2",
+              "Title": "Geothermal Energy Potential 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v2025/fin_best_cond_stu_gee_2025_50_n2k_3857_1km_COG_matched.tif"
             },
             {
-              "Identifier": "Natura2000",
+              "Identifier": "natura2000",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/NK2_3035_1km_24_3035_COG_1_matched.tif"
             }
           ]
