@@ -1,7 +1,7 @@
 {
   "Name": "11-wr08-heating_systems",
   "Title": "Primary Heating System in Dwellings",
-  "Description": "",
+  "Description": "**Residential Heating in Austria: National Trends and Regional Diversity**\nIn the broader context of Austria’s energy balance, thermal energy is a heavyweight: more than half of the country's final energy consumption is dedicated to heat production. A significant portion of this energy fuels the heating systems of Austria’s roughly four million primary residences.\n**The National Heating Mix**\nWhile the transition to renewables is underway, fossil fuels still maintain a significant footprint. As of the current reporting period, the national breakdown of heating systems across all primary residences is as follows:\nThis information has been published initially on https://www.energie.gv.at\n",
   "Resources": [
     {
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-wr08-energy_data_styles.json",
