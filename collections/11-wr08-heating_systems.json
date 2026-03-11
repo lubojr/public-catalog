@@ -26,5 +26,17 @@
     }
   ],
   "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-austrian_renewable_energy.png",
-  "CollectionGroup": "Energy Dashboard"
+  "CollectionGroup": "Energy Dashboard",
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "11-wr08-heating_systems",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "11-wr08-heating_system",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-wr08-vega_chart.json"
+  }
 }
