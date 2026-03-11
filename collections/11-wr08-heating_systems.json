@@ -1,1 +1,30 @@
-{}
+{
+  "Name": "11-wr08-heating_systems",
+  "Title": "Primary Heating System in Dwellings",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "HeatingSystems2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.408147578785538,
+        45.84677419354837,
+        17.08685626441198,
+        50.06336405529952
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard"
+}
