@@ -10,7 +10,7 @@
           "Time": "2025-06-16T09:00:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T0900.tif"
             }
           ]
@@ -19,7 +19,7 @@
           "Time": "2025-06-16T09:15:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T0915.tif"
             }
           ]
@@ -28,7 +28,7 @@
           "Time": "2025-06-16T09:30:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T0930.tif"
             }
           ]
@@ -37,7 +37,7 @@
           "Time": "2025-06-16T09:45:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T0945.tif"
             }
           ]
@@ -46,7 +46,7 @@
           "Time": "2025-06-16T10:00:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1000.tif"
             }
           ]
@@ -55,7 +55,7 @@
           "Time": "2025-06-16T10:15:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1015.tif"
             }
           ]
@@ -64,7 +64,7 @@
           "Time": "2025-06-16T10:30:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1030.tif"
             }
           ]
@@ -73,7 +73,7 @@
           "Time": "2025-06-16T10:45:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1045.tif"
             }
           ]
@@ -82,7 +82,7 @@
           "Time": "2025-06-16T11:00:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1100.tif"
             }
           ]
@@ -91,7 +91,7 @@
           "Time": "2025-06-16T11:15:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1115.tif"
             }
           ]
@@ -100,7 +100,7 @@
           "Time": "2025-06-16T11:30:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1130.tif"
             }
           ]
@@ -109,7 +109,7 @@
           "Time": "2025-06-16T11:45:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1145.tif"
             }
           ]
@@ -118,7 +118,7 @@
           "Time": "2025-06-16T12:00:00Z",
           "Assets": [
             {
-              "Identifier": "data",
+              "Identifier": "data", "Title": "Windspeed Nowcasting",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T1200.tif"
             }
           ]
