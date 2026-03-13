@@ -11,8 +11,8 @@
     }
   ],
   "Collections": [
-    "wr02-nature",
-    "wr02-pvpot"
+    "wr02-pvpot",
+    "wr02-nature"
   ],
   "Process": {
     "Name": "timeseries",
