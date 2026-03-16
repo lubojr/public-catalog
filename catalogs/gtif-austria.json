@@ -7,9 +7,9 @@
   "default_overlay_layers": "layers/overlays",
   "assets_endpoint": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main",
   "stories_endpoint": {
-     "rendered_url": "https://gtif-austria.info/narratives/{id}",
-     "raw_url": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main"
-   },
+    "rendered_url": "https://gtif-austria.info/narratives/{id}",
+    "raw_url": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main"
+  },
   "collections": [
     "LULUCF_land_use_indicator",
     "ait_predictive_maintenance",
@@ -49,6 +49,17 @@
     "pvpot_fc",
     "n_vision_indicator",
     "brownfield-recovery-potential",
-    "wp04_uepi"
+    "wp04_uepi",
+    "01-wr08-energy_data",
+    "02-wr08-energy_installed_capacity",
+    "03-wr08-pv_production",
+    "04-wr08-pv_production",
+    "05-wr08-pv_production",
+    "06-wr08-energy_data",
+    "07-wr08-wind_production",
+    "08-wr08-wind_production",
+    "09-wr08-wind_production",
+    "10-wr08-wind_production",
+    "11-wr08-heating_systems"
   ]
 }
