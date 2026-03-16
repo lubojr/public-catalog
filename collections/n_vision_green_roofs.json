@@ -17,7 +17,7 @@
             "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-11-Rooftop-Characterisation-aaS/n-vision-green-roofs-style.json",
             "TimeEntries": [
                 {
-                    "Time": "2025",
+                    "Time": "20250101",
                     "Assets": [
                         {
                             "Identifier": "Green Roofs",
@@ -41,6 +41,16 @@
       "Url": "https://www.n-vision.ai/"
        }
     ],
+    "Colorlegend": {
+    "title": "",
+    "range": [
+      "rgb(84, 173, 49)"
+    ],
+    "domain": [
+      "Green Roofs 2025"
+    ],
+    "scaleType": "categorical"
+  },
     "BaseLayers": [
         {
             "id": "n_vision",

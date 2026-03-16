@@ -39,7 +39,7 @@
     "comparison_electricity_mv_klien_data",
     "comparison_grid_c_klien_data",
     "comparison_grid_e_klien_data",
-    "evapotranspiration_monitoring_indicator",
+    "evapotranspiration-monitoring",
     "mobility_ihr_pm25_pm10",
     "mobility_asfinag",
     "mobility_no2",
@@ -49,7 +49,6 @@
     "pvpot_fc",
     "n_vision_indicator",
     "brownfield-recovery-potential",
-    "wp04_uepi",
     "01-wr08-energy_data",
     "02-wr08-energy_installed_capacity",
     "03-wr08-pv_production",
@@ -60,6 +59,9 @@
     "08-wr08-wind_production",
     "09-wr08-wind_production",
     "10-wr08-wind_production",
-    "11-wr08-heating_systems"
+    "11-wr08-heating_systems",
+    "wr03_wind_nowcasting",
+    "wp04_uepi",
+    "gtif-site-itentification-wind"
   ]
 }

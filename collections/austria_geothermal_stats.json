@@ -7,7 +7,7 @@
       "Name": "GeoSphere",
       "Url": "https://www.geosphere.at/en"
     }
-    ],
+  ],
   "Resources": [
     {
       "Name": "GeoJSON source",
@@ -24,6 +24,7 @@
           "Assets": [
             {
               "Identifier": "geothermal_stats",
+              "Title": "Geothermal statistics Regions 2024",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/Austria_cond_24_5.geojson"
             }
           ]
@@ -33,6 +34,7 @@
           "Assets": [
             {
               "Identifier": "geothermal_stats2",
+              "Title": "Geothermal statistics Regions 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v2025/Austria_cond_25_1.geojson"
             }
           ]
