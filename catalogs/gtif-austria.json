@@ -39,7 +39,7 @@
     "comparison_electricity_mv_klien_data",
     "comparison_grid_c_klien_data",
     "comparison_grid_e_klien_data",
-    "evapotranspiration-monitoring",
+    "evapotranspiration_monitoring_indicator",
     "mobility_ihr_pm25_pm10",
     "mobility_asfinag",
     "mobility_no2",
