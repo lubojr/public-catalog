@@ -13,5 +13,8 @@
             "Name": "Sistema",
             "Url": "https://www.sistema.at/applications/technology/"
         }
+    ],
+    "Disable": [
+        "evapotranspiration_distance_to_green"
     ]
 }
